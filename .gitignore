@@ -1,0 +1,46 @@
+### IntelliJ IDEA ###
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+### VS Code ###
+.vscode/
+
+### Mac OS ###
+.DS_Store
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+
+
+# Build output
+/out/
+target/
+bin/
+build/
+
+# Gradle
+.gradle/
+build/
+
+# Maven
+target/
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+
+# Class files
+*.class
+
+# Java crash logs
+hs_err_pid*
+
+# Environment files
+.env
