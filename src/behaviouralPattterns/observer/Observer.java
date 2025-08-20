@@ -109,7 +109,7 @@ class YoutubeChannel implements Channel{
     }
 }
 
-class Observer{
+public class Observer{
     public static void main(String[] args) {
         YoutubeChannel tuf = new YoutubeChannel("takeuforward");
         tuf.subscribe(new EmailSubscriber("raj"));

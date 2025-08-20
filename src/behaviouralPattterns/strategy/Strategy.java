@@ -67,7 +67,7 @@ class RideMatchingService{
     }
 }
 
-class Strategy{
+public class Strategy{
     public static void main(String[] args) {
         RideMatchingService service = new RideMatchingService(new SurgePriorityStrategy());
         service.matchRider("Mall");
@@ -81,7 +81,7 @@ class Strategy{
 
 /*
 * ==================================================================================================================
-* Version 1:
+* Version 1: W/o Strategy Pattern
 * ==================================================================================================================
 * */
 /**
